@@ -2,11 +2,10 @@ package org.generation.BlogPessoal.controller;
 
 import java.util.List;
 
-import org.apache.catalina.connector.Response;
+
 import org.generation.BlogPessoal.model.Tema;
 import org.generation.BlogPessoal.repository.TemaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.jpa.repository.config.JpaRepositoryNameSpaceHandler;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
