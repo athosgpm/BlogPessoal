@@ -17,7 +17,7 @@ public class SwaggerConfig {
 	return new Docket(DocumentationType.SWAGGER_2)
 			.select() 
 			.apis( RequestHandlerSelectors.basePackage 
-			("org.generation.blogPessoal.controller") ) 
+			("org.generation.BlogPessoal.controller") ) 
 			.paths(PathSelectors.any()) 
 			.build() 
 			.apiInfo(apiInfo()); 
@@ -34,9 +34,9 @@ public class SwaggerConfig {
 			.build(); 
 			} 
 			private Contact contact(){ 
-			return new Contact("Tatiane Tissoni", 
-			"https://github.com/tatiantunes", 
-			"Desenvolvedora full stack Angular Spring =))"); 
+			return new Contact("Athos Mesquita", 
+			"https://github.com/athosgpm", 
+			"Desenvolvedor full stack"); 
 			} 
 			
 
